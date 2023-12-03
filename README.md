@@ -11,7 +11,7 @@ wget -qO /usr/local/bin/cf-ddns.sh https://raw.githubusercontent.com/cnyangang/C
 
 2、给脚本执行权限 chmod +x /usr/local/bin/cf-ddns.sh
 
-3、执行 crontab -e 并添加以下定时任务：*/1 * * * * /usr/local/bin/cf-ddns.sh  #每分钟执行一次
+3、执行 crontab -e 并添加以下定时任务：*/1 * * * * /usr/local/bin/cfddns.sh  #每分钟执行一次
 
 怎么获取我的 Cloudflare API？ 
 
