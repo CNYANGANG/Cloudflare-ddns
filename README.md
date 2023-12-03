@@ -7,7 +7,7 @@ wget -qO /usr/local/bin/cf-ddns.sh https://raw.githubusercontent.com/cnyangang/C
 
 二、使用方法：
 
-1、修改脚本中 auth_email,auth_key,zone_name,record_name 对应内容为自己的信息
+1、修改脚本中 CFKEY，CFUSER，CFZONE_NAME，CFRECORD_NAME 对应内容为自己的信息
 
 2、给脚本执行权限 chmod +x /usr/local/bin/cf-ddns.sh
 
